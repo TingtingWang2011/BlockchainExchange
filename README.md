@@ -8,10 +8,10 @@ python runner.py
 ```
 
 Features implemented in this demo code:
-* Synchonously connect to the exchange using websocket API.
+* Connect to the exchange using websocket API.
 * Subscribe to the following channels: e.g. heart_beat, l2_lob, l3_lob, prices, symbols, ticker, trades, trading, balances. 
 * Create and cancel orders.
-* Market making bot that creates limit orders based on the last traded prices or cancels all live orders after timeout.
+* Market making bot that creates limit orders based on the last traded prices and cancels live orders after timeout.
 
 Dependencies:
 * websocket
